@@ -5,6 +5,9 @@
   "repository": "https://github.com/Wenderson-P/Facebook-Interface.git",
   "author": "Wenderson <wps713@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development"
+  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
