@@ -1,0 +1,8 @@
+{
+  "name": "Facebook_Interface",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Wenderson-P/Facebook-Interface.git",
+  "author": "Wenderson <wps713@gmail.com>",
+  "license": "MIT"
+}
