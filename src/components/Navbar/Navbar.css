@@ -1,3 +1,22 @@
 .navbarContainer {
   background-color: #4a90e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.userPhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.userInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.userLabel {
+  color: white;
 }

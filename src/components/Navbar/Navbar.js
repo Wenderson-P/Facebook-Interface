@@ -7,8 +7,10 @@ export default function Navbar() {
   return (
     <div className="navbarContainer">
       <img src={facebookLogo} alt="Facebook logo" />
-      <h5>Meu perfil</h5>
-      <img src={userImage} alt="User logo" />
+      <div className="userInfo">
+        <h4 className="userLabel">Wenderson</h4>
+        <img src={userImage} alt="User logo" className="userPhoto" />
+      </div>
     </div>
   );
 }
