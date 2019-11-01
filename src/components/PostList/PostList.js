@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Post from '../Post/Post'
 
 export default class PostList extends Component {
   state = {
@@ -29,6 +29,11 @@ export default class PostList extends Component {
   };
 
   render() {
-    return <div />;
+    const { posts } = this.state
+    return (
+      <div>
+        {posts.map(post => <Post key={post.id} data={post} />)}
+      </div>
+    )
   }
 }
