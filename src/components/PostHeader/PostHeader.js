@@ -6,13 +6,19 @@ export default function PostHeader({ author, date, content }) {
     <div className="postHeaderContainer">
       <div className="authorContainer">
         <img src={author.avatar} alt='autor avatar' className="authorImg" />
-        <h4>
-          {author.name}
-        </h4>
+        <div className="postInfo">
+          <span className="authorName">
+            {author.name}
+          </span>
+          <span className="postDate">
+            {date}
+          </span>
+        </div>
       </div>
-      <h5 >{date}</h5>
       <div>
-        {content}
+        <text className="postContent">
+          {content}
+        </text>
       </div>
     </div>
   );
