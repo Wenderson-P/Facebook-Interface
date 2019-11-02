@@ -6,7 +6,7 @@ export default function PostComment({ key, author, content }) {
       <img src={author.avatar} alt="avatar usuario" />
       <div className="comment">
         <text>
-          <span>{author.name} </span>
+          <span>{author.name}&nbsp;</span>
           {content}
         </text>
       </div>
