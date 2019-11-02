@@ -1,0 +1,19 @@
+.postContainer {
+  display: flex;
+  width: 70%;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.postData {
+  width: 100%;
+  padding: 20px;
+}
+
+.split {
+  margin: 20px 0px;
+  height: 1px;
+  background: #eeeeee;
+}
