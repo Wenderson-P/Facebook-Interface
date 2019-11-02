@@ -7,3 +7,10 @@ body,
   background-color: #f2f2f2;
   font-family: "Roboto", sans-serif;
 }
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
