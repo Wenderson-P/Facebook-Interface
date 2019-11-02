@@ -1,10 +1,10 @@
 import React from 'react';
+import PostHeader from '../PostHeader/PostHeader';
 
-// import { Container } from './styles';
-
-export default function Post({ posts }) {
+export default function Post({ key, data }) {
   return (
     <div>
+      <PostHeader author={data.author} />
     </div>
   );
 }
