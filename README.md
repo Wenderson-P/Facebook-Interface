@@ -8,4 +8,5 @@
 ```
 yarn install
 yarn dev
+/* The project will start in http://localhost:8080 */
 ```
