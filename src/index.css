@@ -14,3 +14,12 @@ body,
   border-radius: 50%;
   margin-left: 5px;
 }
+
+.authorName {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #4a4a4a;
+}

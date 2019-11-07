@@ -1,0 +1,18 @@
+.postCommentContainer {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.postContent {
+  margin: 0px;
+}
+
+.comment {
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 20px;
+
+  background: #eeeeee;
+}

@@ -15,11 +15,9 @@ export default function PostHeader({ author, date, content }) {
           </span>
         </div>
       </div>
-      <div>
-        <text className="postContent">
-          {content}
-        </text>
+      <div className="postContent">
+        {content}
       </div>
-    </div>
+    </div >
   );
 }
